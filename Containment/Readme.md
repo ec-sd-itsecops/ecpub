@@ -2,20 +2,19 @@ Here’s a **step-by-step plan** for your IT Security team member conducting ons
 
 ---
 
-## 🔐 Onsite Forensic & Containment Plan (Windows 10)
+## Onsite Forensic & Containment Plan (Windows 10)
 
-### 🛠️ 1. **Preparation (Before Visit)**
+###  1. **Preparation (Before Visit)**
 - Bring:
-  - Encrypted external USB drives (or SSDs) for log collection
-  - Bootable Windows PE or Linux USB (if offline disk imaging is needed)
+  - Eternal USB drives (or SSDs) for log collection
+  - Bootable Windows USB 
   - Cisco AMP installer for Windows (downloaded from console)
-  - Trusted tools: Sysinternals Suite, FTK Imager Lite, KAPE, Velociraptor Agent (if licensed), or other IR kits
-- Ensure local admin credentials are available
-- Confirm no machines are powered off or tampered with before arrival
+  - Ensure local admin credentials are available
+  - Confirm no machines are powered off or tampered with before arrival
 
 ---
 
-### 🔎 2. **Initial Triage (On Each Machine)**
+### 2. **Initial Triage (On Each Machine)**
 1. **Do not power off or reboot the system.**
 2. Disconnect from the internet **if not needed for forensic collection.**
 3. Confirm local time settings (important for log correlation).
@@ -43,14 +42,14 @@ Here’s a **step-by-step plan** for your IT Security team member conducting ons
 
 ---
 
-### 🧼 3. **Containment**
+###  3. **Containment**
 - If live network activity is suspicious, block outbound connections via Windows Firewall
 - Stop unknown scheduled tasks or startup entries temporarily
 - Revoke compromised user credentials
 
 ---
 
-### 🧪 4. **Install Cisco AMP for Endpoints (EDR)**
+### 4. **Install Cisco AMP for Endpoints (EDR)**
 1. Run the installer with local admin:
    ```bash
    amp_win_x64_installer.exe
@@ -60,14 +59,14 @@ Here’s a **step-by-step plan** for your IT Security team member conducting ons
 
 ---
 
-### 💾 5. **Transfer Logs for Central Review**
+### 5. **Transfer Logs for Central Review**
 - Encrypt USB drives if needed
 - Create SHA256 hashes of files if chain-of-custody is needed
 - Upload to secure internal share/SIEM/IR analyst workstation
 
 ---
 
-### 🔁 6. **Post-Triage: Reimage**
+###  6. **Post-Triage: Reimage**
 - Use your standard corporate Windows 10 image
 - Rejoin to domain
 - Harden endpoints (apply CIS baseline if applicable)
@@ -80,6 +79,6 @@ Here’s a **step-by-step plan** for your IT Security team member conducting ons
 - [KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor)
 - [FTK Imager Lite](https://accessdata.com/product-download)
 - [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/)
-- [Velociraptor](https://www.velociraptor.app/) (if available in your org)
+
 
 Would you like a checklist version you can print or share internally?
