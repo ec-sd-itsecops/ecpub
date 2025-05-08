@@ -1,4 +1,4 @@
-Here’s a **step-by-step plan** for your IT Security team member conducting onsite forensic triage and EDR installation on **12 compromised Windows 10 desktops**. Since you're planning to reimage them, the focus should be **quick evidence collection, threat containment, and EDR installation** to monitor any post-infection behavior until the reimage is complete.
+Here’s a **step-by-step plan** for  IT Security team member conducting onsite forensic triage and EDR installation on **12 compromised Windows 10 desktops**. the focus should be **quick evidence collection, threat containment, and EDR installation** to monitor any post-infection behavior until the reimage is complete.
 
 ---
 
