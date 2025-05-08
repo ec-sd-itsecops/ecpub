@@ -37,14 +37,6 @@ wevtutil epl Security C:\Logs\Security.evtx
 wevtutil epl Application C:\Logs\Application.evtx
 ```
 
-- `epl` = Export Log
-- The `.evtx` files are the native format for Windows Event Viewer and can be analyzed later on another machine.
-   - **Windows Event Logs**:
-     ```bash
-     wevtutil epl System C:\Logs\System.evtx
-     wevtutil epl Security C:\Logs\Security.evtx
-     wevtutil epl Application C:\Logs\Application.evtx
-     ```
    - Export key artifacts:
      - `Prefetch`
      - `$MFT`, `$LogFile`, `$UsnJrnl`
