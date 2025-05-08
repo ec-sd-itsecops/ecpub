@@ -19,6 +19,26 @@ Here’s a **step-by-step plan** for  IT Security team member conducting onsite 
 2. Disconnect from the internet **if not needed for forensic collection.**
 3. Confirm local time settings (important for log correlation).
 4. **Collect logs and system snapshots:**
+### Step-by-Step: Export Event Logs with `wevtutil`
+
+#### 🖥️ 1. **Open Command Prompt as Administrator**
+- Click Start → type `cmd`
+- Right-click **Command Prompt** → **Run as administrator**
+
+#### 📁 2. **Create a Folder to Store Logs**
+```cmd
+mkdir C:\Logs
+```
+
+#### 📤 3. **Run These Commands to Export Logs**
+```cmd
+wevtutil epl System C:\Logs\System.evtx
+wevtutil epl Security C:\Logs\Security.evtx
+wevtutil epl Application C:\Logs\Application.evtx
+```
+
+- `epl` = Export Log
+- The `.evtx` files are the native format for Windows Event Viewer and can be analyzed later on another machine.
    - **Windows Event Logs**:
      ```bash
      wevtutil epl System C:\Logs\System.evtx
