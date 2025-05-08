@@ -72,18 +72,7 @@ wevtutil epl Application C:\Logs\Application.evtx
 ---
 
 ### 5. **Transfer Logs for Central Review**
-- Encrypt USB drives if needed
-- Create SHA256 hashes of files if chain-of-custody is needed
-- Upload to secure internal share/SIEM/IR analyst workstation
 
----
-
-###  6. **Post-Triage: Reimage**
-- Use your standard corporate Windows 10 image
-- Rejoin to domain
-- Harden endpoints (apply CIS baseline if applicable)
-- Reinstall Cisco AMP and verify connectivity
-- Restore only clean, scanned data from backups if needed
 
 ---
 
