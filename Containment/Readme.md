@@ -87,10 +87,3 @@ wevtutil epl Application C:\Logs\Application.evtx
 
 ---
 
-## 📌 Recommended Forensic Tools (Free / Lightweight)
-- [KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor)
-- [FTK Imager Lite](https://accessdata.com/product-download)
-- [Sysinternals Suite](https://learn.microsoft.com/en-us/sysinternals/)
-
-
-Would you like a checklist version you can print or share internally?
