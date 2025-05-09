@@ -1,4 +1,4 @@
-Gaining access to a potentially compromised **Domain Controller (DC)** is a critical point in an investigation. Here's a **step-by-step guide** to assess whether it may be **infected or compromised**, with a focus on stealthy, persistent, and credential-related threats:
+**step-by-step guide** to assess whether DC may be **infected or compromised**
 
 ---
 
