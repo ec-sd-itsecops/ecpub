@@ -108,9 +108,4 @@
 
 ---
 
-###  **If Anything Looks Suspicious**
-- Immediately **disconnect the system from the network (but don’t power off)**.
-- Engage your **incident response team** or escalate to **forensics analysts**.
-
----
 
