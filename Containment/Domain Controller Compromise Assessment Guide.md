@@ -7,6 +7,7 @@
 ### 🔍 **Step 1: Baseline Info Gathering**
 
 #### ✅ Check Basic System Integrity
+- Open command prompt 
 - `hostname` / `whoami` — confirm you’re on the intended DC and using a privileged account.
 - Check uptime: `systeminfo | find "System Boot Time"` — long uptimes may hide persistent malware.
 - Record all running services: `services.msc` or `Get-Service` in PowerShell.
