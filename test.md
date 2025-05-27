@@ -4,7 +4,7 @@ Here are 3 main methods you can use:
 
 ---
 
-### ✅ **Option 1: Disable Extension Installation via `settings.json` (User or Workspace Level)**
+### **Option 1: Disable Extension Installation via `settings.json` (User or Workspace Level)**
 
 1. **Create a Workspace or User settings file** with the following:
 
@@ -24,7 +24,7 @@ Here are 3 main methods you can use:
      * **macOS/Linux**: `~/.vscode/extensions`
    * Set folder permissions so users **cannot modify** it.
 
-> 🔒 This works best when paired with endpoint management (like Intune or Cisco AMP) to enforce settings and permissions.
+>  This works best when paired with endpoint management (like Intune or Cisco AMP) to enforce settings and permissions.
 
 ---
 
